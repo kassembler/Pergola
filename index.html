@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pergola</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <!--  PÄIS / NAVIGATSIOON -->
+  <header id="pais" role="banner">
+    <div class="container">
+      <!-- Logo -->
+
+      <!-- Põhinavigatsioon -->
+      <nav aria-label="Põhinavigatsioon">
+        <a href="index.html" class="logo" aria-label="Pergola avaleht">
+          <h3>PERGOLA</h3>
+        </a>
+        <a href="#meist">Meist</a>
+        <a href="#tooted">Tooted</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="e_pood.html" class="btn-primary">E-pood</a>
+      
+
+          <!-- Ostukorv ja konto -->
+        <div class="quick-actions" aria-label="Konto ja ostukorv">
+          <a href="ostukorv.html" aria-label="Ostukorv">
+              <img src="img/ostukorv.png" alt="Ostukorvi ikoon">
+          </a>
+          <a href="#" aria-label="Kasutaja">
+              <img src="img/kasutaja.png" alt="Kasutaja ikoon">
+          </a>
+        </div>
+      </nav>
+  </header>
+
+  <!-- PÕHISISU ALGUS  -->
+  <main id="sisu">
+    <!-- Funktsionaalsed pergolad iga kodu jaoks -->
+    <section id="hero" aria-labelledby="hero-pealkiri">
+      <div class="hero-grid">
+        <div class="hero-tekst">
+          <h1 id="hero-pealkiri">Funktsionaalsed pergolad iga kodu jaoks!</h1>
+          <p>Meie pergolad pakuvad sulle privaatsust ja mugavust, muutes su kodu tõeliseks paradiisiks.</p>
+          <p>Naudi varju kuumadel suvedel ja looduse ilu iga ilmaga!</p>
+        </div>
+        <div class="hero-pilt">
+          <img src="img/pergola.png" alt="Kaasaegne must pergola aias">
+        </div>
+      </div>
+    </section>
+    <br style="clear: both">
+        <!-- TOOTEKATEGOORIAD (3 kaarti: Komplektid | Detailid | Lisad) -->
+    <section id="tooted" aria-labelledby="tooted-pealkiri">
+      <div class="container">
+        <div class="kaardid-grid">
+          <!-- Kaart 1: KOMPLEKTID -->
+          <article class="toote-kaar" aria-labelledby="komplektid-h3">
+            <img src="img/komplektid.png" alt="Pergola komplekt raamiga">
+            <h3 id="komplektid-h3">KOMPLEKTID</h3>
+            <p>Detailide komplektid, millest saad sobiva pergola kokku panna</p>
+            <div class="btn">Komplektid</div>
+          </article>
+
+          <!-- Kaart 2: DETAILID -->
+          <article class="toote-kaar" aria-labelledby="detailid-h3">
+            <img src="img/detailid.png" alt="Metallist mooduldetailid">
+            <h3 id="detailid-h3">DETAILID</h3>
+            <p>Vali üksikud detailid ja pane nendest ise sobiv pergola kokku</p>
+            <div class="btn">Detailid</div>
+          </article>
+
+          <!-- Kaart 3: LISAD -->
+          <article class="toote-kaar" aria-labelledby="lisad-h3">
+            <img src="img/lisad.png" alt="Valge purikatus pergolale">
+            <h3 id="lisad-h3">LISAD</h3>
+            <p>Võimalus lisada oma pergolale puri-katus või kaunid kardinad</p>
+            <div class="btn" >Lisad</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- MIKS VALIDA PERGOLA? (pealkiri + pilt + 3 põhjust) -->
+<section id="miks-valida" aria-labelledby="miks-pealkiri">
+  <div class="container">
+    <h2 id="miks-pealkiri" class="sektsiooni-pealkiri">Miks valida Pergola?</h2>
+
+    <!-- Suur foto -->
+    <div class="lai-pilt">
+      <img src="img/pergola_2.png" alt="Pergola kaasaegse kodu hoovis">
+    </div>
+
+    <!-- 3 põhjust: Funktsionaalne | Modernne | Lihtne paigaldada -->
+    <div class="usp-grid" role="list">
+      <div class="usp">
+        <img src="img/tooteomadus_1.png" alt="" aria-hidden="true">
+        <h3>- FUNKTSIONAALNE</h3>
+        <p>Kirjeldus kuidas moodulitest saab erinevaid lahendusi kokku panna, hiljem muuta, lisasid juurde osta jne.</p>
+      </div>
+      <div class="usp">
+        <img src="img/tooteomadus_2.png" alt="" aria-hidden="true">
+        <h3>- MODERNNE</h3>
+        <p>Oma lihtsusega sobib erinevatesse kohtadesse, erineva arhitektuuriga majade/suvilate hoovi, koolidesse ja avalikku ruumi.</p>
+      </div>
+      <div class="usp">
+        <img src="img/tooteomadus_3.png" alt="" aria-hidden="true">
+        <h3>- LIHTNE JA KIIRE PAIGALDADA</h3>
+        <p>Paigalduse ja viimistluse kirjeldus, lisamaterjalide valik.</p>
+      </div>
+    </div>
+    <!-- E-poodi nupp -->
+        <div class="cta-kast">
+        <a href="e_pood.html" class="btn">E-poodi</a>
+        </div>
+    </div>
+    </section>
+
+    <!-- KLIENTIDE PERGOLAD -->
+    <section id="kliendi-pergolad" aria-labelledby="kliendi-pergolad-pealkiri">
+      <div class="klient-grid">
+        <div class="intro">
+          <h2 id="kliendi-pergolad-pealkiri">Klientide Pergolad</h2>
+          <p>Meie kliendid on loonud Pergola detailidest imelisi lahendusi. Uuri lähemalt ja saa inspiratsiooni, et ka enda kodu funktsionaalsemaks ja mõnusamaks paigaks kujundada.</p>
+        </div>
+        <div class="galerii-pilt">
+          <img src="img/klientide_pergola.png" alt="Kliendi aeda paigaldatud pergola mere ääres">
+        </div>
+        <div class="kliendi-pergolad-tekst">
+          <p>Rohkem infot ja fotosid leiad meie Instagrammist. </p>
+          <p>Palun lisa ka oma fotod Pergolast ja kasuta viidet <strong>@pergolaeurope</strong>.</p>
+          <div class="btn">Instagram</div>
+        </div>
+      </div>
+    </section>
+
+    <br style="clear: both">
+
+    <!-- KLIENTIDE TAGASISIDE -->
+    <section id="tagasiside" aria-labelledby="tagasiside-pealkiri">
+      <div class="container">
+        <h2 id="tagasiside-pealkiri" class="sektsiooni-pealkiri">Klientide tagasiside</h2>
+
+        <div class="tsitaadid-grid" role="list">
+          <blockquote class="tsitaat" role="listitem">
+            <p>“Ehitasime endale Pergola detailidest mõnusa istumisala. Paigaldamine oli kiire ja lihtne. Tulemus jäi kaunis ja minimalistlik. Oleme väga rahul.”</p>
+            <footer>Marianne L.</footer>
+          </blockquote>
+
+          <blockquote class="tsitaat" role="listitem">
+            <p>“Kogu protsess oli ladus ja lahendused paindlikud. Soovitame!”</p>
+            <footer>Ralf M.</footer>
+          </blockquote>
+
+          <blockquote class="tsitaat" role="listitem">
+            <p>“Väga kvaliteetne teostus ning hea klienditugi.”</p>
+            <footer>Marko L.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+  <hr style="border: none; border-top: 4px solid black; width: 100%; margin: 10px 0;">
+
+  <!-- JALUS -->
+  <footer id="jalus" role="contentinfo">
+    <div class="jalus-grid">
+      <!-- veerg: logo + sots -->
+      <section id="kliendile" aria-labelledby="jalus-logo-pealkiri">
+        <img src="img/pergola_logo.png" alt="Pergola logo">
+        <div class="instagram-btn">@Instagram</div>
+      </section>
+
+      <!-- veerg: klienditeenindus -->
+      <section id="kliendile" aria-labelledby="klienditeenindus-pealkiri">
+        <h3>Klienditeenindus</h3>
+        <a href="#">Maksmine</a><br>
+        <a href="#">Tarne</a><br>
+        <a href="#">Tagastamine</a><br>
+        <a href="#">Privaatsuspoliitika</a>
+      </section>
+
+      <!-- veerg: konto -->
+      <section id="kliendile" aria-labelledby="konto-pealkiri">
+        <h3>Minu konto</h3>
+        <a href="#">Loo konto</a><br>
+        <a href="#">Logi sisse</a>
+      </section>
+
+      <!-- veerg: kontakt -->
+        <section id="kliendile" aria-labelledby="kontakt-pealkiri">
+        <h3 id="kliendile">Pergola</h3>
+        <address>
+            Woogs OÜ<br>
+            <span>info@pergola.ee</span><br>
+            <span>+372 552 6673</span><br>
+            <small>(Tööpäevadel 09.00–17.00)</small>
+        </address>
+        </section>
+  </footer>
+  <!-- Tulevase interaktiivsuse jaoks Javascript -->
+  <script src="skript.js" defer></script>
+</body>
+</html>
